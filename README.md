@@ -1,2 +1,2 @@
 # bictia_projects
-Proyectos desarrollados por Robinson Andres Cortes Galindo
+Proyectos desarrollados por Robinson Andres Cortes Galindos
