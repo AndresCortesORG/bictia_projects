@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="utf-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
+      <link rel="stylesheet" href="css//style.css">
+    </head>
+    <body>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="operacion"> </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button class="btn btn-light btn-block" onclick="numero('7')">7</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn btn-light btn-block" onclick="numero('8')">8</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button  class="btn btn-light btn-block" onclick="numero('9')">9</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button  class="btn btn-info btn-block" onclick="numero('/')">/</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button class="btn btn-light btn-block" onclick="numero('4')">4</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn btn-light btn-block" onclick="numero('5')">5</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button  class="btn btn-light btn-block" onclick="numero('6')">6</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button  class="btn btn-info btn-block" onclick="numero('*')">*</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button class="btn btn-light btn-block" onclick="numero('3')">3</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn btn-light btn-block" onclick="numero('2')">2</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button  class="btn btn-light btn-block" onclick="numero('1')">1</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button  class="btn btn-info btn-block" onclick="numero('+')">+</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button class="btn btn-light btn-block" onclick="numero('0')">0</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-primary btn-block" onclick="numero('=')">=</button>
+                        </div>
+                        
+                        <div class="col-md-3">
+                            <button  class="btn btn-info btn-block" onclick="numero('-')">-</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+    </body>
+    <script src="js/scripts.js"></script>
+</html>
