@@ -1,5 +1,6 @@
 # CINEMAX
-# Proyectos desarrollados por Robinson Andres Cortes Galindo
+Proyecto desarrollado por Robinson Andres Cortes Galindo 
+
 Desarrollado en laravel 6, bootstrap 4, blade mysql 
 
 ![](https://i.ibb.co/TWb0SCf/Captura-de-pantalla-10.png)
